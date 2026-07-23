@@ -9,7 +9,8 @@ Run with: streamlit run app.py
 
 import tempfile
 from pathlib import Path
-
+from dotenv import load_dotenv
+load_dotenv()
 import streamlit as st
 
 from src.ingest import build_chunks_from_pdf
