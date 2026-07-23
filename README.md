@@ -7,7 +7,7 @@ Built to solve a real problem: as an engineering student, I spend hours searchin
 ## Why this project
 
 This is an implementation of **Retrieval-Augmented Generation (RAG)** — the same architectural pattern used in production AI systems to ground LLM outputs in real data instead of relying on the model's memory alone. Rather than a full "smart" system, it's a deliberately simple, transparent RAG pipeline: every step (extraction, chunking, retrieval, generation) is visible and explainable end-to-end.
-
+![StudyMate screenshot](screenshot.png)
 ## How it works
 
 ```
